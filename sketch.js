@@ -105,7 +105,7 @@ function draw() {
     pontuacao = pontuacao + Math.round((frameRate()/60));
 
     // pular quando a tecla espaço é acionada
-    if(keyDown("space")&& trex.y > 160) {
+    if(keyDown("space")&& trex.y > 140) {
       trex.velocityY = -10;
       puloSnd.play();
     }
